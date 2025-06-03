@@ -28,41 +28,48 @@ const Contact = () => {
   };
 
   const handleSubmit = (e) => {
-    e.preventDefault();
-    setLoading(true);
+  e.preventDefault();
+  setLoading(true);
 
-    emailjs
-      .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
-        {
-          from_name: form.name,
-          to_name: "Prajwal M D",
-          from_email: form.email,
-          to_email: "prajju.18gryphon@gmail.com",
-          message: form.message,
-        },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
-      )
-      .then(
-        () => {
-          setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+  // First: Send message to YOU
+  emailjs.send(
+    import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
+    import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+    {
+      from_name: form.name,
+      to_name: "Prajwal M D",
+      from_email: form.email,
+      to_email: "prajju.18gryphon@gmail.com",
+      message: form.message,
+    },
+    import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+  ).then(() => {
+    // Then: Send Auto-reply to USER
+    emailjs.send(
+      import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
+      import.meta.env.VITE_APP_EMAILJS_REPLY_TEMPLATE_ID,
+      {
+        from_name: form.name,
+        from_email: form.email,
+        message: form.message,
+      },
+      import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+    ).then(() => {
+      setLoading(false);
+      alert("Thank you! I will get back to you as soon as possible.");
+      setForm({ name: "", email: "", message: "" });
+    }).catch((error) => {
+      setLoading(false);
+      console.error("Auto-reply error:", error);
+      alert("Message sent to me, but auto-reply failed.");
+    });
+  }).catch((error) => {
+    setLoading(false);
+    console.error("Primary message error:", error);
+    alert("Something went wrong. Please try again.");
+  });
+};
 
-          setForm({
-            name: "",
-            email: "",
-            message: "",
-          });
-        },
-        (error) => {
-          setLoading(false);
-          console.error(error);
-
-          alert("Ahh, something went wrong. Please try again.");
-        }
-      );
-  };
 
   return (
     <div
