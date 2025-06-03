@@ -1,32 +1,82 @@
 
 import {
-  logo,
   backend,
   creator,
   mobile,
   web,
-  github,
-  menu,
-  close,
-  css,
+  
   gearXpert,
   project2,
   project3,
-  mysql,
-  express,
-  aws,
-  figma,
-  git,
-  html,
-  javascript,
-  mongodb,
-  nodejs,
-  reactjs,
-  tailwind,
-  threejs,
+  
   firstTestimonial,
   secondTestimonial,
   thirdTestimonial,
+
+  python,
+  javascript,
+  c,
+  r,
+  bitbucket,
+  nodejs,
+  vitejs,
+  keras,
+  azure,
+  github,
+  figma,
+  reactjs,
+  graphql,
+  mysql,
+  seaborn,
+  tensorflow,
+  numpy,
+  railway,
+  matplotlib,
+  eslint,
+  sqllite,
+  tailwind,
+  socketio,
+  metamask,
+  html,
+  powerbi,
+  django,
+  opencv,
+  postgresql,
+  reactrouter,
+  canva,
+  powershell,
+  aws,
+  threejs,
+  firebase,
+  postman,
+  fastapi,
+  scikitlearn,
+  bootstrap,
+  vercel,
+  heroku,
+  ollama,
+  gitlab,
+  ubuntu,
+  excel,
+  pandas,
+  mongodb,
+  linux,
+  docker,
+  render,
+  express,
+  livekit,
+  solidity,
+  swagger,
+  typescript,
+  css,
+  streamlit,
+  djangorest,
+  redux,
+  flask,
+  pytorch,
+  git,
+  openai,
+
 } from '../assets'
 
 
@@ -35,8 +85,6 @@ import tekisky from "../assets/company/tekisky.png";
 
 
 export const navLinks = [
-
-
   {
     id: "about",
     title: "About",
@@ -73,62 +121,259 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
+    name: "Python",
+    icon: python,
   },
   {
     name: "JavaScript",
     icon: javascript,
   },
   {
-    name: "React JS",
+    name: "C",
+    icon: c,
+  },
+  {
+    name: "R",
+    icon: r,
+  },
+  {
+    name: "Bitbucket",
+    icon: bitbucket,
+  },
+  {
+    name: "Node.js",
+    icon: nodejs,
+  },
+  {
+    name: "Vite.js",
+    icon: vitejs,
+  },
+  {
+    name: "Keras",
+    icon: keras,
+  },
+  {
+    name: "Azure",
+    icon: azure,
+  },
+  {
+    name: "GitHub",
+    icon: github,
+  },
+  {
+    name: "Figma",
+    icon: figma,
+  },
+  {
+    name: "React.js",
     icon: reactjs,
   },
- 
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "GraphQL",
+    icon: graphql,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "MySQL",
+    icon: mysql,
+  },
+  {
+    name: "Seaborn",
+    icon: seaborn,
+  },
+  {
+    name: "TensorFlow",
+    icon: tensorflow,
+  },
+  {
+    name: "NumPy",
+    icon: numpy,
+  },
+  {
+    name: "Railway",
+    icon: railway,
+  },
+  {
+    name: "Matplotlib",
+    icon: matplotlib,
+  },
+  {
+    name: "ESLint",
+    icon: eslint,
+  },
+  {
+    name: "SQLite",
+    icon: sqllite,
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Socket.IO",
+    icon: socketio,
   },
   {
-    name: "Express Js",
-    icon: express,
+    name: "MetaMask",
+    icon: metamask,
+  },
+  {
+    name: "HTML5",
+    icon: html,
+  },
+  {
+    name: "Power BI",
+    icon: powerbi,
+  },
+  {
+    name: "Django",
+    icon: django,
+  },
+  {
+    name: "OpenCV",
+    icon: opencv,
+  },
+  {
+    name: "PostgreSQL",
+    icon: postgresql,
+  },
+  {
+    name: "Canva",
+    icon: canva,
+  },
+  {
+    name: "PowerShell",
+    icon: powershell,
   },
   {
     name: "AWS",
     icon: aws,
   },
   {
+    name: "Three.js",
+    icon: threejs,
+  },
+  {
+    name: "Firebase",
+    icon: firebase,
+  },
+  {
+    name: "Postman",
+    icon: postman,
+  },
+  {
+    name: "FastAPI",
+    icon: fastapi,
+  },
+  {
+    name: "Scikit-Learn",
+    icon: scikitlearn,
+  },
+  {
+    name: "Bootstrap",
+    icon: bootstrap,
+  },
+  {
+    name: "Vercel",
+    icon: vercel,
+  },
+  {
+    name: "Heroku",
+    icon: heroku,
+  },
+  {
+    name: "Ollama",
+    icon: ollama,
+  },
+  {
+    name: "GitLab",
+    icon: gitlab,
+  },
+  {
+    name: "Ubuntu",
+    icon: ubuntu,
+  },
+  {
+    name: "Excel",
+    icon: excel,
+  },
+  {
+    name: "Pandas",
+    icon: pandas,
+  },
+  {
     name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "MySql",
-    icon: mysql,
+    name: "Linux",
+    icon: linux,
   },
-
   {
-    name: "git",
+    name: "React Router",
+    icon: reactrouter,
+  },
+  {
+    name: "Docker",
+    icon: docker,
+  },
+  {
+    name: "Render",
+    icon: render,
+  },
+  {
+    name: "Express.js",
+    icon: express,
+  },
+  {
+    name: "LiveKit",
+    icon: livekit,
+  },
+  {
+    name: "Solidity",
+    icon: solidity,
+  },
+  {
+    name: "Swagger",
+    icon: swagger,
+  },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
+    name: "CSS3",
+    icon: css,
+  },
+  {
+    name: "Streamlit",
+    icon: streamlit,
+  },
+  {
+    name: "Django REST",
+    icon: djangorest,
+  },
+  {
+    name: "Redux",
+    icon: redux,
+  },
+  {
+    name: "Flask",
+    icon: flask,
+  },
+  {
+    name: "PyTorch",
+    icon: pytorch,
+  },
+  {
+    name: "Git",
     icon: git,
   },
- 
-
+  {
+    name: "OpenAI",
+    icon: openai,
+  },
 ];
+
 
 const experiences = [
   {
