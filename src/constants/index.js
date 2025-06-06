@@ -4,6 +4,11 @@ import {
   creator,
   mobile,
   web,
+
+  rareminds,
+  aarushi,
+  kulturehire,
+  wildfox,
   
   gearXpert,
   project2,
@@ -80,10 +85,6 @@ import {
 } from '../assets'
 
 
-// Import Tekisky separately
-import tekisky from "../assets/company/tekisky.png";
-
-
 export const navLinks = [
   {
     id: "about",
@@ -106,15 +107,15 @@ const services = [
     icon: web,
   },
   {
-    title: "Frontend Developer",
+    title: "Mern-Stack Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "AI/ML Developer",
     icon: backend,
   },
   {
-    title: "Ui UX Designer",
+    title: "Web3 Developer",
     icon: creator,
   },
 ];
@@ -376,17 +377,37 @@ const technologies = [
 
 
 const experiences = [
-  {
-    title: "Full-Stack Developer",
-    company_name: "Tekisky",
-    icon: tekisky,
+    {
+    title: "Data Analyst Intern",
+    company_name: "KultureHire",
+    icon:kulturehire,
     iconBg: "#383E56",
-    date: "Jan 2023 - present",
+    date: "Jul 2024 - Sep 2024",
     points: [
-      "Developing and maintaining web applications using MERN technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Analyzed the career aspirations of Generation Z by collecting, processing, and querying data with MySQL, ensuring data integrity and accuracy.",
+      "Developed interactive dashboards in Power BI and managed data storage in Excel, providing actionable insights and enhancing data-driven decision-making processes.",
+    ],
+  },
+    {
+    title: "Project Intern",
+    company_name: "Aarushi Infotech",
+    icon:aarushi,
+    iconBg: "#383E56",
+    date: "Jan 2024 - Feb 2024",
+    points: [
+      "Engineered a highly accurate PAN card detector utilizing OpenCV and Python, incorporating OCR for precise text extraction.",
+      "Seamlessly integrated the detector into a complex application, significantly enhancing its functionality.",
+    ],
+  },
+  {
+    title: "Intern",
+    company_name: "RareMinds",
+    icon: rareminds,
+    iconBg: "#383E56",
+    date: "Jul 2023 - Sep 2023",
+    points: [
+      "Designed and developed a responsive personal portfolio leveraging HTML, CSS, and JavaScript, complete with interactive project showcases.",
+      "Conducted rigorous usability testing, iteratively refining the UI to optimize user experience.",
     ],
   },
 ];

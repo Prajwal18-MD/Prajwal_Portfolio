@@ -5,9 +5,14 @@ import web from "./web.png";
 import close from './close.svg';
 import menu from './menu.svg';
 
+import rareminds from './company/rareminds.png';
+import aarushi from './company/aarushi_infotech_logo.png';
+import kulturehire from './company/kulturehire.png';
+import wildfox from './company/wildfox.png';
+
 import gearXpert from './gearXpert.png';
 import project3 from './project3.webp';
-import project2 from './proj1.webp'
+import project2 from './proj1.webp';
 
 import firstTestimonial from './ragvendra.jpeg';
 import secondTestimonial from './deepika.jpeg';
@@ -84,6 +89,11 @@ export {
   creator,
   mobile,
   web,
+
+  rareminds,
+  aarushi,
+  kulturehire,
+  wildfox,
   
   gearXpert,
   project2,
