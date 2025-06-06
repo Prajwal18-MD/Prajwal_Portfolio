@@ -377,6 +377,17 @@ const technologies = [
 
 
 const experiences = [
+      {
+    title: "Machine Learning Intern",
+    company_name: "Wildfox Business Advocacy",
+    icon:wildfox,
+    iconBg: "#383E56",
+    date: "Feb 2025 - May 2025",
+    points: [
+      "Built and benchmarked time series models (ARIMA, ETS, Prophet) with advanced feature engineering, achieving 90–94% forecasting accuracy using rolling-window validation",
+      "Fine-tuned DistilBERT for Indian name classification by curating a labeled dataset, extending tokenization, and integrating rule-based layers for improved precision.",
+    ],
+  },
     {
     title: "Data Analyst Intern",
     company_name: "KultureHire",

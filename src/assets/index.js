@@ -10,9 +10,9 @@ import aarushi from './company/aarushi_infotech_logo.png';
 import kulturehire from './company/kulturehire.png';
 import wildfox from './company/wildfox.png';
 
-import gearXpert from './gearXpert.png';
-import project3 from './project3.webp';
-import project2 from './proj1.webp';
+import gearXpert from './projects/gearXpert.png';
+import project3 from './projects/project3.webp';
+import project2 from './projects/proj1.webp';
 
 import firstTestimonial from './ragvendra.jpeg';
 import secondTestimonial from './deepika.jpeg';
