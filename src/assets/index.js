@@ -9,9 +9,9 @@ import gearXpert from './gearXpert.png';
 import project3 from './project3.webp';
 import project2 from './proj1.webp'
 
-import firstTestimonial from './Tars Ken.webp';
-import secondTestimonial from './image.webp';
-import thirdTestimonial from './third testimonial.webp';
+import firstTestimonial from './ragvendra.jpeg';
+import secondTestimonial from './deepika.jpeg';
+import thirdTestimonial from './Sarangpai.jpeg';
 
 import python from './tech/python.png';
 import javascript from './tech/javascript.png';

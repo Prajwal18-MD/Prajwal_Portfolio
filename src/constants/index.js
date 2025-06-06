@@ -392,29 +392,32 @@ const experiences = [
 ];
 
 const testimonials = [
-  {
+    {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Huzaif proved me wrong.",
-    name: "MD Mustaqeem",
-    designation: "Ecommerce",
-    company: "QuickMart",
-    image: firstTestimonial,
+      "Consistently delivered high-quality computer vision solutions, especially in PAN card detection—technically sharp, reliable, and a strong asset on every project Prajwal contributed to.",
+    name:"Ragavendra H S",
+    designation:"Managin Director",
+    company:"Aarushi Consulting & Service Pvt Limited",
+    image:firstTestimonial,
+    linkedin: "https://www.linkedin.com/in/aquarag/",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Huzaif does.",
-    name: "Abdul Raheman",
-    designation: "Ecommerce Business",
-    company: "justbuyz",
-    image: secondTestimonial,
+      "Prajwal blends analytical depth with practical problem-solving—his ML models enhanced our decisions. Reliable, curious, and detail-oriented—a true asset to any team.",
+    name:"Deepika D",
+    designation:"Data Analyst",
+    company:"Wildfox Business Advocacy",
+    image:secondTestimonial,
+    linkedin: "https://www.linkedin.com/in/deepikad04/",
   },
   {
     testimonial:
-      "After Huzaif optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "James Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: thirdTestimonial,
+      "Provided a well-built Web3 full-stack solution that worked seamlessly and added clear value. His work was Reliable, efficient, impactful, pleasure to integrate , and easy to collaborate with.",
+    name:"Sarang Pani",
+    designation:"Chief Executive Officer",
+    company:"Inovact Pvt Ltd",
+    image:thirdTestimonial,
+    linkedin: "https://www.linkedin.com/in/sarang-pani-14ab1919b/",
   },
 ];
 

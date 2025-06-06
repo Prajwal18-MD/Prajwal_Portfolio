@@ -9,7 +9,7 @@ import { testimonials } from "../constants";
 // Register ScrollTrigger plugin
 gsap.registerPlugin(ScrollTrigger);
 
-const FeedbackCard = ({ index, testimonial, name, designation, company, image }) => {
+const FeedbackCard = ({ index, testimonial, name, designation, company, image, linkedin }) => {
   // Use a `ref` to apply GSAP animations
   const cardRef = React.useRef(null);
 
@@ -38,33 +38,40 @@ const FeedbackCard = ({ index, testimonial, name, designation, company, image })
   }, []);
 
   return (
-    <div
-      ref={cardRef}
-      className="bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full"
+    <a
+      href={linkedin}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="block w-full"
     >
-      <p className="text-white font-black text-[48px]">"</p>
+      <div
+        ref={cardRef}
+        className="bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full"
+      >
+        <p className="text-white font-black text-[48px]">"</p>
 
-      <div className="mt-1">
-        <p className="text-white tracking-wider text-[18px]">{testimonial}</p>
+        <div className="mt-1">
+          <p className="text-white tracking-wider text-[18px]">{testimonial}</p>
 
-        <div className="mt-7 flex justify-between items-center gap-1">
-          <div className="flex-1 flex flex-col">
-            <p className="text-white font-medium text-[16px]">
-              <span className="blue-text-gradient">@</span> {name}
-            </p>
-            <p className="mt-1 text-secondary text-[12px]">
-              {designation} of {company}
-            </p>
+          <div className="mt-7 flex justify-between items-center gap-1">
+            <div className="flex-1 flex flex-col">
+              <p className="text-white font-medium text-[16px]">
+                <span className="blue-text-gradient">@</span> {name}
+              </p>
+              <p className="mt-1 text-secondary text-[12px]">
+                {designation} of {company}
+              </p>
+            </div>
+
+            <img
+              src={image}
+              alt={`feedback_by-${name}`}
+              className="w-10 h-10 rounded-full object-cover"
+            />
           </div>
-
-          <img
-            src={image}
-            alt={`feedback_by-${name}`}
-            className="w-10 h-10 rounded-full object-cover"
-          />
         </div>
       </div>
-    </div>
+    </a>
   );
 };
 
@@ -78,10 +85,14 @@ const Feedbacks = () => {
         </div>
       </div>
       <div
-        className={`-mt-20 pb-14 ${styles.paddingX} grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10  justify-items-center`}
+        className={`-mt-20 pb-14 ${styles.paddingX} grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 justify-items-center`}
       >
-        {testimonials.map((testimonial, index) => (
-          <FeedbackCard key={testimonial.name} index={index} {...testimonial} />
+        {testimonials.map((testimonialData, index) => (
+          <FeedbackCard
+            key={testimonialData.name}
+            index={index}
+            {...testimonialData}
+          />
         ))}
       </div>
     </div>
