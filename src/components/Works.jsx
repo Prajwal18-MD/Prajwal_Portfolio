@@ -4,7 +4,7 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 import { styles } from "../styles";
-import { github } from "../assets";
+import { gitmain } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 
@@ -46,7 +46,13 @@ const ProjectCard = ({
   }, []);
 
   return (
-    <div ref={cardRef}>
+  <div ref={cardRef}>
+    <a
+      href={source_code_link}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="block w-full"
+    >
       <Tilt
         options={{
           max: 45,
@@ -64,11 +70,14 @@ const ProjectCard = ({
 
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <div
-              onClick={() => window.open(source_code_link, "_blank")}
+              onClick={(e) => {
+                e.stopPropagation(); // prevent the click from bubbling
+                window.open(source_code_link, "_blank");
+              }}
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
               <img
-                src={github}
+                src={gitmain}
                 alt="source code"
                 className="w-1/2 h-1/2 object-contain"
               />
@@ -92,8 +101,10 @@ const ProjectCard = ({
           ))}
         </div>
       </Tilt>
-    </div>
-  );
+    </a>
+  </div>
+);
+
 };
 
 const Works = () => {

@@ -10,13 +10,21 @@ import aarushi from './company/aarushi_infotech_logo.png';
 import kulturehire from './company/kulturehire.png';
 import wildfox from './company/wildfox.png';
 
-import gearXpert from './projects/gearXpert.png';
-import project3 from './projects/project3.webp';
-import project2 from './projects/proj1.webp';
+import blog from './projects/blogginwebsite.png';
+import brain from './projects/brainage.png';
+import ethinicity from './projects/ethinicity.jpg';
+import forest from './projects/forestfire.png';
+import pancard from './projects/pancarddetector.png';
+import plant from './projects/plantdisease.png';
+import pythonblock from './projects/pythonblockchain.png';
+import stock from './projects/stockprediction.png';
+import vendor from './projects/vendoragening.png';
 
 import firstTestimonial from './ragvendra.jpeg';
 import secondTestimonial from './deepika.jpeg';
 import thirdTestimonial from './Sarangpai.jpeg';
+
+import gitmain from './github.png';
 
 import python from './tech/python.png';
 import javascript from './tech/javascript.png';
@@ -78,7 +86,7 @@ import streamlit from './tech/streamlit.png';
 import djangorest from './tech/djangorest.png';
 import redux from './tech/redux.png';
 import flask from './tech/flask.png';
-import pytorch from './tech/python.png';
+import pytorch from './tech/pytorch.png';
 import git from './tech/git.png';
 import openai from './tech/openai.png';
 
@@ -95,13 +103,21 @@ export {
   kulturehire,
   wildfox,
   
-  gearXpert,
-  project2,
-  project3,
+  blog,
+  brain,
+  ethinicity,
+  forest,
+  pancard,
+  plant,
+  pythonblock,
+  stock,
+  vendor,
   
   firstTestimonial,
   secondTestimonial,
   thirdTestimonial,
+
+  gitmain,
 
   python,
   javascript,

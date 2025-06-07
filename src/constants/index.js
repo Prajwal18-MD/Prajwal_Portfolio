@@ -10,9 +10,15 @@ import {
   kulturehire,
   wildfox,
   
-  gearXpert,
-  project2,
-  project3,
+  blog,
+  brain,
+  ethinicity,
+  forest,
+  pancard,
+  plant,
+  pythonblock,
+  stock,
+  vendor,
   
   firstTestimonial,
   secondTestimonial,
@@ -455,77 +461,99 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Tekisky Mart",
+    name: "Brain-Age Prediction",
     description:
-      "Tekisky Mart is a web-based platform that allows users to search, explore, and purchase a wide range of products from various providers, offering a seamless and efficient shopping experience.",
+      "Brain Age Prediction is an AI-based web application that analyzes MRI scans to estimate an individual's remaining brain age using deep learning models, deployed through a user-friendly interface.",
     tags: [
       {
-        name: "react",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "aws",
         color: "white-text-gradient",
       },
       {
-        name: "node",
+        name: "django",
         color: "pink-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "ai",
         color: "green-text-gradient",
       },
  
     ],
-    image: project2,
-    source_code_link: "https://github.com/",
+    image: brain,
+    source_code_link: "https://github.com/Prajwal18-MD/Brain_Production",
   },
   {
-    name: "GearXpert",
+    name: "Ethinicity Detector",
     description:
-      "GearXpert is your ultimate destination for premium auto parts and accessories, Whether you're an automobile enthusiast or a professional, find everything you need to upgrade, repair.",
+      "The Ethnicity Identifier project involved developing a machine learning model to predict an individual’s religion, and mother tongue from their full name, achieving ~90% accuracy.",
     tags: [
       {
-        name: "react",
+        name: "openai",
         color: "blue-text-gradient",
       },
       {
-        name: "emailJs",
+        name: "python",
         color: "green-text-gradient",
       },
       {
-        name: "Gsap",
+        name: "streamlit",
         color: "pink-text-gradient",
       },
+      {
+        name: "fastapi",
+        color: "white-text-gradient"
+      }
     ],
-    image: gearXpert,
-    source_code_link: "https://github.com/",
+    image: ethinicity,
+    source_code_link: "https://github.com/Prajwal18-MD/Ethinicity_detector",
   },
   {
-    name: "GoGroove-Ecommerce",
+    name: "Stock-Prediction",
     description:
-      "Go-Groove is your ultimate destination for premium products across various categories. Whether you're a savvy shopper or a professional, enhance, and simplify your lifestyle—all in one place!",
+      "Developed a user-friendly Streamlit app for short-term stock price prediction (95% accuracy) with portfolio and option strategy optimization for future references using deep learning.",
     tags: [
       {
-        name: "react",
+        name: "deep-learning",
         color: "blue-text-gradient",
       },
       {
-        name: "express",
+        name: "streamlit",
         color: "white-text-gradient",
       },
       {
-        name: "node",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mongodb",
+        name: "finance",
         color: "green-text-gradient",
       },
     ],
-    image: project3,
-    source_code_link: "https://github.com/",
+    image: stock,
+    source_code_link: "https://github.com/Prajwal18-MD/Stock_prediction",
   },
+  {
+    name: "Forest-Fire Prediction",
+    description:
+      "Developed a forest fire prediction system using Django and Random Forest Regressor, achieving 94% accuracy by analyzing inputs like temperature, humidity, latitude, and longitude.",
+    tags: [
+      {
+        name: "django",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "python",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scikit-learn",
+        color: "white-text-gradient",
+      },
+    ],
+    image: forest,
+    source_code_link: "https://github.com/Prajwal18-MD/forest_fire_main",
+  },
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };
