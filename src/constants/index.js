@@ -553,6 +553,125 @@ const projects = [
     image: forest,
     source_code_link: "https://github.com/Prajwal18-MD/forest_fire_main",
   },
+  {
+    name: "Plant-Disease Prediction",
+    description:
+      "Designed and implemented a plant disease detection system using image processing to identify disease presence and confidence levels from leaf images, enabling early diagnosis.",
+    tags: [
+      {
+        name: "python",
+        color: "white-text-gradient",
+      },
+      {
+        name: "tensorflow",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "opencv",
+        color: "green-text-gradient",
+      },
+      {
+        name: "cnn",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: plant,
+    source_code_link: "https://github.com/Prajwal18-MD/plant_disease_detection",
+  },
+  {
+    name: "Pan Card Tampering",
+    description:
+      "Built an advanced PAN card tampering detection module using OpenCV and OCR for accurate text extraction, enhancing document verification reliability within a larger application.",
+    tags: [
+      {
+        name: "python",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "opencv",
+        color: "white-text-gradient",
+      },
+      {
+        name: "ocr",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: pancard,
+    source_code_link: "https://github.com/Prajwal18-MD/pancard-tampering",
+  },
+  {
+    name: "Python Blockchain",
+    description:
+      "Implemented a peer-to-peer transaction network simulating blockchain and hashing principles, enabling secure, private and verifiable exchanges between nodes using Python.",
+    tags: [
+      {
+        name: "python",
+        color: "green-text-gradient",
+      },
+      {
+        name: "flask",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "rest-api",
+        color: "white-text-gradient",
+      },
+      {
+        name: "blockchain",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: pythonblock,
+    source_code_link: "https://github.com/Prajwal18-MD/python-blockchain",
+  },
+  {
+    name: "Blogging Website",
+    description:
+      "Created a full-stack blogging website with complete features including user authentication, blog creation, editing, and commenting, offering a seamless writing and reading experience.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "white-text-gradient",
+      },
+      {
+        name: "node",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "green-text-gradient",
+      },
+    ],
+    image: blog,
+    source_code_link: "https://github.com/Prajwal18-MD/Blog-writer",
+  },
+  {
+    name: "Vendor Ageing Analysis",
+    description:
+      "Designed a comprehensive vendor ageing analysis dashboard in Power BI, transforming Excel data into insightful visual reports for tracking revenue flow, customer insights and payment cycles.",
+    tags: [
+      {
+        name: "powerbi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "excel",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "dax",
+        color: "pink-text-gradient",
+      },
+
+    ],
+    image: vendor,
+    source_code_link: "https://github.com/Prajwal18-MD/vendor_ageing_analysis",
+  },
+  
   
 ];
 
