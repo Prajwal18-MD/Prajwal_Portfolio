@@ -509,7 +509,7 @@ const projects = [
       }
     ],
     image: ethinicity,
-    source_code_link: "https://github.com/Prajwal18-MD/Ethinicity_detector",
+    source_code_link: "https://github.com/Prajwal18-MD/Ethinicity",
   },
   {
     name: "Stock-Prediction",
