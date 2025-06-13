@@ -2,6 +2,7 @@ import { BrowserRouter } from "react-router-dom";
 
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
 import Footer from "./components/Footer";
+import ChatWidget from "./components/ChatWidget";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
           <StarsCanvas />
           <Footer/>
         </div>
+        <ChatWidget/>
       </div>
     </BrowserRouter>
   );

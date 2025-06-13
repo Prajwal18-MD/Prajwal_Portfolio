@@ -206,3 +206,14 @@
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.7), -1.8em -1.8em 0 0em #ffffff;
   }
 }
+
+/* Pulse-scale animation for the chat icon */
+@keyframes pulse-scale {
+  0%, 100% { transform: scale(1); }
+  50%      { transform: scale(1.04); }
+}
+
+.chat-icon {
+  animation: pulse-scale 2s ease-in-out infinite;
+}
+
