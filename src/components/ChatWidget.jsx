@@ -11,7 +11,7 @@ export default function ChatWidget() {
   const [messages, setMessages] = useState(() => {
     // 10) Load from localStorage
     const saved = localStorage.getItem("chat_messages");
-    return saved ? JSON.parse(saved) : [{ from: "bot", text: "Hi, I’m your chatbot—click me to start!" }];
+    return saved ? JSON.parse(saved) : [{ from: "bot", text: "Hi, I’m your chatbot" }];
   });
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
