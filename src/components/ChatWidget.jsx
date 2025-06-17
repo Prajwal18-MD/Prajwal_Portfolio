@@ -102,11 +102,13 @@ export default function ChatWidget() {
       {/* 2) Slide + fade animation */}
       {open && (
         <div
-          className="fixed bottom-24 right-6 w-full max-w-sm max-h-[380px]
-                     bg-white/80 backdrop-blur-md rounded-xl
-                     border border-purple-300 shadow-xl
-                     flex flex-col overflow-hidden z-50
-                     transition-all duration-500 ease-in-out"
+          className="fixed bottom-24 right-4
+               w-64 sm:w-80
+               max-h-80
+               bg-white/80 backdrop-blur-md rounded-xl
+               border border-purple-300 shadow-xl
+               flex flex-col overflow-hidden z-50
+               transition-all duration-500 ease-in-out"
         >
           {/* Header */}
           <div className="bg-purple-600 text-white px-4 py-2 flex justify-between items-center">
