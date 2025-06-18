@@ -1,5 +1,11 @@
 import React from "react";
-import { FaInstagram, FaXTwitter, FaLinkedin, FaGithub } from "react-icons/fa6";
+import {
+  FaInstagram,
+  FaXTwitter,
+  FaLinkedin,
+  FaGithub,
+  FaMedium,
+} from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -31,6 +37,13 @@ const Footer = () => {
         rel="noopener noreferrer"
       >
         <FaGithub size={24} />
+      </a>
+      <a
+        href="https://medium.com/@prajju.18gryphon"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <FaMedium size={24} />
       </a>
     </footer>
   );
