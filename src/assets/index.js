@@ -19,6 +19,7 @@ import plant from './projects/plantdisease.png';
 import pythonblock from './projects/pythonblockchain.png';
 import stock from './projects/stockprediction.png';
 import vendor from './projects/vendoragening.png';
+import mediumpilot from './projects/mediumpilot.png';
 
 import firstTestimonial from './ragvendra.jpeg';
 import secondTestimonial from './deepika.jpeg';
@@ -112,6 +113,7 @@ export {
   pythonblock,
   stock,
   vendor,
+  mediumpilot,
   
   firstTestimonial,
   secondTestimonial,

@@ -19,6 +19,7 @@ import {
   pythonblock,
   stock,
   vendor,
+  mediumpilot,
   
   firstTestimonial,
   secondTestimonial,
@@ -460,6 +461,32 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "MediumPilot",
+    description:
+      "MediumPilot is a tool that lets you automatically share your latest Medium articles to your LinkedIn profile. Just sign in with Google, paste your Medium RSS feed and LinkedIn API credentials.",
+    tags: [
+      {
+        name: "react",
+        color: "green-text-gradient",
+      },
+      {
+        name: "node",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "git",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "vercel",
+        color: "white-text-gradient",
+      },
+ 
+    ],
+    image: mediumpilot,
+    source_code_link: "https://github.com/Prajwal18-MD/MediumPilot",
+  },
   {
     name: "Brain-Age Prediction",
     description:
